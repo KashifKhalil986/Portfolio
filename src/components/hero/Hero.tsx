@@ -32,8 +32,9 @@ const Hero = () => {
       </div>
 
       <div className="w-1/2 mt-10 text-white">
-      MERN Stack Web Developer Skilled in building full-stack applications using JavaScript, MongoDB, Express.js, React.js, Node.js, Next.js, Push Api (push notification), Socket.IO, GraphQL, Netlify, Vercel, Firebase     
-     
+      Software Developer with over 2 years of experience, proficient in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React
+JS, Next JS, Node JS, Express JS and MongoDB. Detail-oriented, quick learner, and eager to contribute to cutting-edge
+web experiences. Ready to collaborate in crafting appealing, responsive websites with a talented team.     
        </div>
        <div className="mt-8">
        <a
