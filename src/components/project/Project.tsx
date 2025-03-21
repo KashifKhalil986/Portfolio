@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -13,7 +12,7 @@ const Project = () => {
        <p className="text-3xl text-[hsl(226,17%,96%)]">Baladi Express Website</p>
        </div>
 
-        <Image
+        <img
           src="projectGradient.png"
           alt="gradient"
           className="absolute left-[390px] h-[350px] "
@@ -25,7 +24,7 @@ const Project = () => {
         </div>
 
         <div className="absolute top-24 rounded-2xl right-0 w-1/2 h-[280px] z-10 border-t-4 border-purple-900 shadow-lg overflow-hidden">
-        <Image src="baladi.jpg" alt="project1Image"  className='w-[510px] mx-auto h-[270px] rounded-2xl mt-2'/>
+        <img src="baladi.jpg" alt="project1Image"  className='w-[510px] mx-auto h-[270px] rounded-2xl mt-2'/>
         </div>
       </div>
 
@@ -35,7 +34,7 @@ const Project = () => {
           <p className="text-3xl text-[hsl(226,17%,96%)]">Vehicle Management System</p>
         </div>
 
-        <Image
+        <img
           src="projectGradient.png"
           alt="project2Image"
           className="absolute right-[390px] h-[350px] "
@@ -50,7 +49,7 @@ const Project = () => {
 
 
         <div className="absolute top-24 rounded-2xl left-0 w-1/2 h-[280px] z-10 border-t-4 border-purple-900 shadow-lg overflow-hidden">
-          <Image src="carmanagement.jpg" alt="" className='w-[510px] mx-auto h-[270px] mt-2 rounded-2xl'/>
+          <img src="carmanagement.jpg" alt="" className='w-[510px] mx-auto h-[270px] mt-2 rounded-2xl'/>
         </div>
 
       </div>
@@ -61,7 +60,7 @@ const Project = () => {
           <p className="text-3xl text-[hsl(226,17%,96%)]">Saas Admin Dashboard</p>
         </div>
 
-        <Image
+        <img
           src="projectGradient.png"
           alt="project3Image"
           className="absolute left-[390px] h-[350px] "
@@ -75,7 +74,7 @@ const Project = () => {
         </div>
 
         <div className="absolute top-24 rounded-2xl right-0 w-1/2 h-[280px] z-10 border-t-4 border-purple-900 shadow-lg overflow-hidden">
-          <Image src="saasadmin.png" alt="project3Image" className='w-[510px] mx-auto h-[250px] rounded-2xl mt-2'/>
+          <img src="saasadmin.png" alt="project3Image" className='w-[510px] mx-auto h-[250px] rounded-2xl mt-2'/>
 
         </div>
       </div>
@@ -86,7 +85,7 @@ const Project = () => {
           <p className="text-3xl text-[hsl(226,17%,96%)]">Saas User Website</p>
         </div>
 
-        <Image
+        <img
           src="projectGradient.png"
           alt="project4Image"
           className="absolute right-[390px] h-[350px] "
@@ -108,7 +107,7 @@ const Project = () => {
         </div>
 
         <div className="absolute top-24 rounded-2xl left-0 w-1/2 h-[280px] z-10 border-t-4 border-purple-900 shadow-lg overflow-hidden">
-          <Image src="saasuser.png" alt="project4Image" className='w-[510px] mx-auto h-[270px] rounded-2xl mt-2'/>
+          <img src="saasuser.png" alt="project4Image" className='w-[510px] mx-auto h-[270px] rounded-2xl mt-2'/>
         </div>
       </div>
 

@@ -1,7 +1,6 @@
 "use client";
 
 import { Link } from "react-scroll";
-import Image from 'next/image';
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-[rgba(35,12,48,1)] p-4 shadow sticky top-0 z-50">
@@ -12,7 +11,7 @@ const Navbar: React.FC = () => {
           duration={800}
           className="flex items-center cursor-pointer hover:text-gray-300"
         >
-          <Image src="/logo.png" alt="logo" width="30" height="24" className="ml-4" />
+          <img src="/logo.png" alt="logo" width="30" height="24" className="ml-4" />
         </Link>
 
 

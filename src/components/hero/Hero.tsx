@@ -4,7 +4,6 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -12,18 +11,18 @@ const Hero = () => {
       <div className="mt-10 flex ">
         <div className="relative">
           <div className=" bg-[url('/Gradient.png')] h-64 w-64 rounded-3xl bg-cover bg-center flex items-center justify-center">
-            <Image className="w-48 h-48 rounded-full" src="/profile.jpg" alt="Profile" />
+            <img className="w-48 h-48 rounded-full  fill" src="/profile.jpg" alt="Profile" />
 
           </div>
           <div className="absolute top-5 left-48">
-            <Image src="/Arrow.png" alt="" />
+            <img src="/Arrow.png" alt="" />
           </div>
           <div className="absolute top-5 left-64 w-max">
             <p className='text-white'>Hello I Am <span className='text-purple-600'> Shahzad Khan</span></p>
 
           </div>
           <div className="absolute top-24 left-64 w-max">
-            <p className='text-white text-sm'>A developer who  <span className='block font-semibold text-2xl'> builds seamless <span className='absolute top-3.5 right-9 text-sm w-[135px]'><Image src="/Ellipse5.png" alt="" /></span> <span className='text-purple-600 text-xl'>experiences </span> <span className='text-white'>...</span> </span>
+            <p className='text-white text-sm'>A developer who  <span className='block font-semibold text-2xl'> builds seamless <span className='absolute top-3.5 right-9 text-sm w-[135px]'><img src="/Ellipse5.png" alt="" /></span> <span className='text-purple-600 text-xl'>experiences </span> <span className='text-white'>...</span> </span>
 
               <span className='text-xs py-1 block'>because performance, design, and logic should all work in harmony</span></p>
 
